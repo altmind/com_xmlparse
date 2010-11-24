@@ -1,0 +1,84 @@
+--------------------Configuration: client - Win32 Debug--------------------
+Begining build with project "D:\book\examples\chap6\client\client.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /Fp".\Debug/client.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o".\Debug/client.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:".\Debug/client.pdb" /debug /machine:I386 /out:".\Debug/client.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\temp\RSP4A.tmp" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /Fp".\Debug/client.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"D:\book\examples\chap6\client\CLIENT.CPP"
+>
+Creating command line "cl.exe @C:\temp\RSP4A.tmp" 
+Creating temp file "C:\temp\RSP4B.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:".\Debug/client.pdb" /debug /machine:I386 /out:".\Debug/client.exe" 
+.\Debug\CLIENT.OBJ>
+Creating command line "link.exe @C:\temp\RSP4B.tmp" 
+Compiling...
+CLIENT.CPP
+Linking...
+LIBCD.lib(_freebuf.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(aw_str.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(crt0fp.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(abort.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(fclose.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(nlsdata1.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(isctype.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(heapchk.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(realloc.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(expand.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(dbghook.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(malloc.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(handler.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(_newmode.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(winsig.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(vsnprint.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(snprintf.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(xtoa.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(ctype.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(wctomb.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(cmiscdat.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(isatty.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(_getbuf.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(crtmbox.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(sbheap.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(nlsdata2.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(wcslen.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(crt0init.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(osfinfo.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(dosmap.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(closeall.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(commit.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(dbgheap.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(free.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(dbgrpt.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(output.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(_flsbuf.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(crt0msg.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(heapinit.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(mbctype.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(aw_env.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(stdargv.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(stdenvp.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(winxfltr.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(crt0dat.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(purevirt.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(ioinit.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(lseek.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(read.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(write.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(close.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(onexit.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(_file.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(fflush.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(dbgnew.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(dbgdel.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(sprintf.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+LIBCD.lib(crt0.obj) : warning LNK4099: PDB "libcd.pdb" was not found with "D:\DevStudio\VC\LIB\LIBCD.lib" or at "D:\book\examples\chap6\client\Debug\libcd.pdb"; linking object as if no debug info
+
+
+
+client.exe - 0 error(s), 58 warning(s)

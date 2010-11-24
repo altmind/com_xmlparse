@@ -1,0 +1,24 @@
+HKCR
+{
+	Math.MathComponent.1 = s 'Math Class'
+	{
+		CLSID = s '{8C30BC11-B8F2-11D0-A756-B04A12000000}'
+	}
+	Math.MathComponent = s 'Math Class'
+	{
+		CurVer = s 'Math.MathComponent.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {8C30BC11-B8F2-11D0-A756-B04A12000000} = s 'Math Class'
+		{
+			ProgID = s 'Math.MathComponent.1'
+			VersionIndependentProgID = s 'Math.MathComponent'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}

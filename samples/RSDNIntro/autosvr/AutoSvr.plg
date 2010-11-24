@@ -1,0 +1,49 @@
+--------------------Configuration: AutoSvr - Win32 Debug--------------------
+Begining build with project "D:\Book\examples\chap6\AutoSvr\AutoSvr.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MTd /W3 /Gm /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /Fp"Debug/AutoSvr.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo"Debug/AutoSvr.res" /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/AutoSvr.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/AutoSvr.pdb" /debug /machine:I386 /def:".\AutoSvr.def" /out:"Debug/AutoSvr.dll" /implib:"Debug/AutoSvr.lib" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\temp\RSP46.tmp" with contents </nologo /MTd /W3 /Gm /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /Fp"Debug/AutoSvr.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\Book\examples\chap6\AutoSvr\AutoSvr.cpp"
+"D:\Book\examples\chap6\AutoSvr\Math.cpp"
+>
+Creating command line "cl.exe @C:\temp\RSP46.tmp" 
+Creating temp file "C:\temp\RSP47.tmp" with contents </nologo /MTd /W3 /Gm /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /Fp"Debug/AutoSvr.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\Book\examples\chap6\AutoSvr\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\temp\RSP47.tmp" 
+Creating temp file "C:\temp\RSP48.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/AutoSvr.pdb" /debug /machine:I386 /def:".\AutoSvr.def" /out:"Debug/AutoSvr.dll" /implib:"Debug/AutoSvr.lib" /pdbtype:sept 
+.\Debug\AutoSvr.obj
+.\Debug\Math.obj
+.\Debug\StdAfx.obj
+.\Debug\AutoSvr.res>
+Creating command line "link.exe @C:\temp\RSP48.tmp" 
+Creating temp file "C:\temp\RSP49.bat" with contents <@echo off
+regsvr32 /s /c ".\Debug\AutoSvr.dll"
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+>
+Creating command line "C:\temp\RSP49.bat" 
+Compiling...
+StdAfx.cpp
+Compiling...
+AutoSvr.cpp
+Math.cpp
+Generating Code...
+Linking...
+LINK : LNK6006: program database D:\Book\examples\chap6\AutoSvr\Debug\AutoSvr.pdb missing; performing full link
+   Creating library Debug/AutoSvr.lib and object Debug/AutoSvr.exp
+Registering ActiveX Control...
+RegSvr32: DllRegisterServer in .\Debug\AutoSvr.dll succeeded.
+
+
+
+
+AutoSvr.dll - 0 error(s), 0 warning(s)

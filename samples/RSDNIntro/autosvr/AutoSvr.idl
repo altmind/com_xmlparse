@@ -1,0 +1,43 @@
+//
+// AutoSvr.idl : IDL source for AutoSvr.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (AutoSvr.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+	[
+		object,
+		uuid(8C30BC10-B8F2-11D0-A756-B04A12000000),
+		dual,
+		helpstring("IMath Interface"),
+		pointer_default(unique)
+	]
+	interface IMath : IDispatch
+	{
+      HRESULT Add( [in] long, [in] long, [out, retval] long* pResult );
+      HRESULT Subtract( [in] long, [in] long, [out, retval] long* pResult );
+      HRESULT Multiply( [in] long, [in] long, [out, retval] long* pResult );
+      HRESULT Divide( [in] long, [in] long, [out, retval] long* pResult );
+	};
+[
+	uuid(8C30BC01-B8F2-11D0-A756-B04A12000000),
+	version(1.0),
+	helpstring("AutoSvr 1.0 Type Library")
+]
+library AUTOSVRLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(8C30BC11-B8F2-11D0-A756-B04A12000000),
+		helpstring("Math Class")
+	]
+	coclass MathComponent
+	{
+		[default] interface IMath;
+	};
+};

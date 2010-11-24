@@ -1,0 +1,44 @@
+// mfc.odl : type library source for mfc.dll
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (mfc.tlb).
+
+[ uuid(C13D1F09-93FA-11D0-A6C4-0000837E3100), version(1.0) ]
+library Mfc
+{
+	importlib("stdole32.tlb");
+	
+
+	//  Primary dispatch interface for CMathComponent
+	
+	[ uuid(C13D1F0C-93FA-11D0-A6C4-0000837E3100) ]
+	dispinterface IMathComponent
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CMathComponent)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CMathComponent)
+			[id(1)] long Add(long lOp1, long lOp2);
+			[id(2)] long Multiply(long lOp1, long lOp2);
+			[id(3)] long Subtract(long lOp1, long lOp2);
+			[id(4)] long Divide(long lOp1, long lOp2);
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CMathComponent
+
+	[ uuid(C13D1F0D-93FA-11D0-A6C4-0000837E3100) ]
+	coclass MFCMathComponent
+	{
+		[default] dispinterface IMathComponent;
+	};
+
+	//{{AFX_APPEND_ODL}}
+};
